@@ -12,7 +12,7 @@ load_dotenv()
 prompt_file = Path(__file__).parent / 'prompts' / 'v1_instructions.txt'
 with open(prompt_file, 'r') as f:
     instructions = f.read().strip()
-
+  
 project_client = AIProjectClient(
     endpoint=os.environ["AZURE_AI_PROJECT_ENDPOINT"],
     credential=DefaultAzureCredential(),
