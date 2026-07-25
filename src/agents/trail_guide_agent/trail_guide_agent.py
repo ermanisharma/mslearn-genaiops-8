@@ -19,7 +19,7 @@ load_dotenv()
 # prompt_file = Path(__file__).parent / 'prompts' / 'v3_instructions.txt'
 
 # version 4
-prompt_file = Path(__file__).parent / 'prompts' / 'v4_instructions.txt'
+prompt_file = Path(__file__).parent / 'prompts' / 'v4_optimized_concise.txt'
 
 with open(prompt_file, 'r') as f:
     instructions = f.read().strip()
