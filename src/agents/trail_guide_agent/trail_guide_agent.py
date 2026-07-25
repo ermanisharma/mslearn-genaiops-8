@@ -13,8 +13,10 @@ load_dotenv()
 # prompt_file = Path(__file__).parent / 'prompts' / 'v1_instructions.txt'
 
 # version 2
-prompt_file = Path(__file__).parent / 'prompts' / 'v2_instructions.txt'
+#prompt_file = Path(__file__).parent / 'prompts' / 'v2_instructions.txt'
 
+# version 3
+prompt_file = Path(__file__).parent / 'prompts' / 'v3_instructions.txt'
 
 with open(prompt_file, 'r') as f:
     instructions = f.read().strip()
